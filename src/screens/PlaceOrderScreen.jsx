@@ -10,8 +10,8 @@ import {
   ListGroupItem,
   Row,
 } from "react-bootstrap";
+import { useCreateOrderMutation } from "../slices/ordersApiSlice";
 import Message from "../components/Message";
-import { useCreateOrderMutation } from "../slices/ordersApiSlice.JS";
 import Loader from "../components/Loader";
 import { clearCartItems } from "../slices/cartSlice";
 import { toast } from "react-toastify";
