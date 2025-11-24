@@ -12,7 +12,7 @@ const OrderListScreen = () => {
   return (
     <div className="container-fluid px-3 px-md-4 px-lg-5 py-4">
       <div className="d-flex justify-content-between align-items-center mb-4">
-        <h1 className="h2 mb-0 fw-bold text-black">Orders</h1>
+        <h1 className="h2 mb-0 fw-bold text-black">oredrs</h1>
       </div>
 
       {isLoading ? (
