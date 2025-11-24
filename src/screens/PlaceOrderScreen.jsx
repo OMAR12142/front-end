@@ -10,11 +10,11 @@ import {
   ListGroupItem,
   Row,
 } from "react-bootstrap";
-import { useCreateOrderMutation } from "../slices/rename";
 import Message from "../components/Message";
 import Loader from "../components/Loader";
 import { clearCartItems } from "../slices/cartSlice";
 import { toast } from "react-toastify";
+import { useCreateOrderMutation } from "../slices/ordersApiSlice.js";
 
 const PlaceOrderScreen = () => {
   const navigate = useNavigate();
