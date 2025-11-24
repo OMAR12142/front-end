@@ -11,7 +11,7 @@ import {
   Row,
 } from "react-bootstrap";
 import Message from "../components/Message";
-import { useCreateOrderMutation } from "../slices/ordersApiSlice.JS";
+import { useCreateOrderMutation } from "../slices/ordersApiSlice.js";
 import Loader from "../components/Loader";
 import { clearCartItems } from "../slices/cartSlice";
 import { toast } from "react-toastify";

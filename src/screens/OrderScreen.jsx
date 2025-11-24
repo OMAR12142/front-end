@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
-import { useGetOrderDetailsQuery } from "../slices/ordersApiSlice.JS";
+import { useGetOrderDetailsQuery } from "../slices/ordersApiSlice.js";
 import Loader from "../components/Loader";
 import Message from "./../components/Message";
 import {
@@ -13,11 +13,11 @@ import {
   Row,
 } from "react-bootstrap";
 import { PayPalButtons, usePayPalScriptReducer } from "@paypal/react-paypal-js";
-import { usePayOrderMutation } from "../slices/ordersApiSlice.JS";
+import { usePayOrderMutation } from "../slices/ordersApiSlice.js";
 import { useSelector } from "react-redux";
-import { useGetPayPalClientIdQuery } from "../slices/ordersApiSlice.JS";
+import { useGetPayPalClientIdQuery } from "../slices/ordersApiSlice.js";
 import { toast } from "react-toastify";
-import { useDeliverOrderMutation } from "../slices/ordersApiSlice.JS";
+import { useDeliverOrderMutation } from "../slices/ordersApiSlice.js";
 
 const OrderScreen = () => {
   const { id: orderId } = useParams();
