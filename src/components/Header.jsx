@@ -65,7 +65,7 @@ const Header = () => {
             id="basic-navbar-nav"
             style={{ position: "relative", zIndex: 1030 }}
           >
-            <Nav className="ms-auto align-items-lg-center flex-column flex-lg-row gap-2 gap-lg-3">
+            <Nav className="ms-auto align-items-lg-center flex-column flex-lg-row gap-2 gap-lg-3 w-100 w-lg-auto text-center text-lg-start">
               <div className="d-lg-none w-100 mb-3">
                 <SeacrhBox />
               </div>
