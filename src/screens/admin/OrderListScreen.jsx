@@ -189,7 +189,7 @@ const OrderListScreen = () => {
                             <small className="text-muted d-block">USER</small>
                             <small>
                               {order.user ? order.user.name : "DELETED USER"}
-                            </small>{" "}
+                            </small>
                           </div>
                           <div className="col-6">
                             <small className="text-muted d-block">DATE</small>
