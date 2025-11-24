@@ -14,7 +14,8 @@ import Message from "../components/Message";
 import Loader from "../components/Loader";
 import { clearCartItems } from "../slices/cartSlice";
 import { toast } from "react-toastify";
-import { useCreateOrderMutation } from "../slices/ordersApiSlice.js";
+import { useCreateOrderMutation } from "../slices/ordersApiSlice.JS";
+// import { useCreateOrderMutation } from "../slices/ordersApiSlice.js";
 
 const PlaceOrderScreen = () => {
   const navigate = useNavigate();

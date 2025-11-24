@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, use } from "react";
 import { Form, Row, Col, Button, Table, Card } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { useProfileMutation } from "../slices/usersApiSlice";
@@ -7,7 +7,8 @@ import Message from "../components/Message";
 import { FaTimes, FaEye, FaUserEdit } from "react-icons/fa";
 import { LinkContainer } from "react-router-bootstrap";
 import { setCredentails } from "../slices/authSlice";
-import { useGetMyOrdersQuery } from "../slices/ordersApiSlice";
+// import { useGetMyOrdersQuery } from "../slices/ordersApiSlice";
+import { useGetMyOrdersQuery } from "../slices/ordersApiSlice.JS";
 import Loader from "../components/Loader";
 
 const Profile = () => {
