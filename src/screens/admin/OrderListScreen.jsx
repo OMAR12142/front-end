@@ -1,5 +1,5 @@
 import React from "react";
-import { useGetAllOrdersQuery } from "../../slices/ordersApiSlice.js";
+import { useGetAllOrdersQuery } from "../../slices/rename.js";
 import Loader from "../../components/Loader";
 import Message from "../../components/Message";
 import { FaTimes } from "react-icons/fa";

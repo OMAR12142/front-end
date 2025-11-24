@@ -7,7 +7,7 @@ import Message from "../components/Message";
 import { FaTimes, FaEye, FaUserEdit } from "react-icons/fa";
 import { LinkContainer } from "react-router-bootstrap";
 import { setCredentails } from "../slices/authSlice";
-import { useGetMyOrdersQuery } from "../slices/ordersApiSlice";
+import { useGetMyOrdersQuery } from "../slices/rename";
 import Loader from "../components/Loader";
 
 const Profile = () => {
